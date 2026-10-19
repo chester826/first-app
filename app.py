@@ -62,7 +62,7 @@ with top_col1:
     st.title(t["title"])
     st.write(t["subtitle"])
 
-@st.cache_data
+#@st.cache_data
 def load_data():
     return pd.read_csv("database.csv")
 
